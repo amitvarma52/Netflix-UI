@@ -1,0 +1,32 @@
+ p{
+  color: white;
+  margin-top: 8px;
+}
+ .btn-container{
+  display: flex;
+}
+ button{
+  display: flex;
+  cursor: pointer;
+  border: none;
+  padding: 10px 15px;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  font-weight: bold;
+  margin-right: 20px;
+  margin-top: 15px;
+  font-size: 12px;
+}
+ button svg{
+  font-size: 10px;
+  margin: 5px;
+}
+.info-btn{
+  background-color: rgb(105, 105, 105);
+  color: white;
+}
+button:hover{
+  opacity: 0.5;
+  transition: 0.4s;
+}

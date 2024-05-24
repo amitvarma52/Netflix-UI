@@ -1,0 +1,32 @@
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(0, 0, 0, 0.562);
+  align-items: center;
+  padding: 10px;
+  position: absolute;
+  width: 100%;
+}
+li{
+  font-weight: bolder;
+  color: white;
+}
+.navbar ul{
+  display: flex;
+  align-items: center;
+}
+.navbar ul li{
+  padding: 5px 15px;
+  list-style: none;
+  font-size: 14px;
+  cursor: pointer;
+}
+.navbar ul li svg{
+  color: white;
+  font-size: 20px;
+}
+.navbar ul li:hover{
+  text-decoration: underline;
+  color: red;
+  transition: 0.4s;
+}

@@ -1,0 +1,28 @@
+.container{
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px 0px;
+}
+.card{
+  width:50vh;
+  padding: 10px 15px;
+}
+h3{
+  color: white;
+  margin-top: 30px;
+  margin-left: 15px;
+  font-weight: bold;
+}
+.card img{
+  height: 20vh;
+  width: 100%;
+}
+p{
+  font-size: 13px;
+}
+button{
+  font-size: 15px;
+}
+svg{
+  font-size: 10px;
+}

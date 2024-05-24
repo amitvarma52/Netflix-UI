@@ -1,0 +1,21 @@
+.trending{
+  height: 100vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ),url('../../Images/Trendingimg.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  padding-left: 10vh;
+}
+.trending-container{
+  padding: 25px;
+  width: 70vh;
+}
+
+.trending-container img{
+  height: 230px;
+  margin-bottom: 15px;
+  margin-left: -80px;
+}
