@@ -6,6 +6,11 @@
 .card{
   width:50vh;
   padding: 10px 15px;
+  height: 35vh;
+}
+.card:hover{
+  transform: Scale(1.1);
+  transition: 0.4s;
 }
 h3{
   color: white;
@@ -25,4 +30,7 @@ button{
 }
 svg{
   font-size: 10px;
+}
+.show{
+  display: none;
 }
