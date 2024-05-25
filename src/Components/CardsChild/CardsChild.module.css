@@ -10,7 +10,8 @@
 }
 .card:hover{
   transform: Scale(1.1);
-  transition: 0.4s;
+  transition: 0.5s;
+  cursor: pointer;
 }
 h3{
   color: white;
